@@ -1,0 +1,110 @@
+.barra-buscar{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 25px;
+  font-size: 1rem;
+  .label{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+}
+
+.mat-btn-add{
+  background-color: #0DA2FF;
+  color: #FFFFFF;
+}
+
+.input-icons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid #DDD;
+  mat-icon{
+    min-width: 60px;
+    text-align: right;
+  }
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: transparent;
+    outline: none;
+  }
+
+}
+
+mat-toolbar {
+  background: #FFFFFF;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+}
+
+mat-sidenav {
+  // margin: 16px;
+  width: 300px;
+  border-right: none;
+  background: #0C2556;
+  color: white;
+  // border-radius: 10px;
+  // padding: 16px;
+  text-align: center;
+}
+
+.content {
+  height: calc(100vh - 130px);
+  border-radius: 10px;
+  margin: 16px;
+  margin-left: 32px;
+  background-color: #FFFFFF;
+  // padding: 16px;
+
+  overflow: auto;
+}
+
+
+
+mat-sidenav-container {
+  height: 100%;
+  // calc(100vh - 5px);
+}
+
+.menu-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+
+  mat-icon {
+    margin-right: 8px;
+  }
+}
+
+.logo {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  // border-radius: 50%;
+}
+
+.name {
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+.designation {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: lightgrey;
+}
+
+mat-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}

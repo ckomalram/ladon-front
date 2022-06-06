@@ -22,3 +22,6 @@ De ser necesario ver el codigo, se deja la información aqui:
 * Clonar repositorio de git.
 * Hacer npm install
 * Ejecutar `ng serve --port 8080`. Ingresar por `http://localhost:8080/`. 
+
+### Nota:
+* No es necesario ejecutar el rest en local ya que actualmente el proyecto front, esta apuntando un despliegue del rest en heroku. Solo sería probar con el front.
